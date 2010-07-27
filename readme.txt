@@ -6,36 +6,36 @@ Requires at least: 2.0
 Tested up to: 3.0
 Stable tag: 4.3
 
-This plugin show a list of  submarino's products choosed by the author of the blog
+Plugin com widget para mostrar produtos do submarino em seu blog.
 
 == Description ==
 
-This plugin show a list of  submarino's products choosed by the author of the blog
+Plugin com widget para mostrar produtos do submarino em seu blog. Vocë escolhe quais produtos serão mostrados através do código do produto e o plugin irá gerar um cache dos produtos.
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
+Após fazer a instalação do plugin vocë deve informar o seu código de afiliado submarino bem como os produtos separados por virgula ( , ) na sessão de configuração
 
-e.g.
-
-1. Upload `plugin-name.zip` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
 
-= The author of the plugin receives a commission on my sales? =
+= O autor ganha comissão sbre minhas vendas? =
 
-No
+Não
 
+= Como obtenho um código de afiliado submarino? = 
+
+Acesse o link http://afiliados.submarino.com.br/affiliates/default.asp e siga as instruções
+
+= Como encontro o código do produto no site do submarino? = 
+
+Por exemplo, da URL http://www.submarino.com.br/produto/10/21847010 o código são os últimos 8 digitos, no caso 21847010
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the directory of the stable readme.txt, so in this case, `/tags/4.3/screenshot-1.png` (or jpg, jpeg, gif)
-2. This is the second screen shot
 
 == Changelog ==
 
 = 0.1 =
 
-* Initial version of the plugin with the possibility to choose the number of products that will be displayed in the widget
+* Versão inicial do widget
