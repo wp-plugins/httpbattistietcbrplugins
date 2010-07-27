@@ -129,7 +129,7 @@ function subprod_core (){
 //************ TELA DE OPÇÕES/CONFIGURÇÕES GERAIS ****************************
 function subprod_options()
 {
-    add_options_page('Submarino Produtos', 'Submarino Produtos', 9, 'submarino-produtos/subprod_options.php');
+    add_options_page('Submarino Produtos', 'Submarino Produtos', 9, 'httpbattistietcbrplugins/subprod_options.php');
 }
 
 add_action('admin_menu', 'subprod_options');

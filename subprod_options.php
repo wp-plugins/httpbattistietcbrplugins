@@ -1,5 +1,5 @@
 <? 
-$lib   = '../wp-content/plugins/submarino-produtos/simplehtmldom/simple_html_dom.php';
+$lib   = '../wp-content/plugins/httpbattistietcbrplugins/simplehtmldom/simple_html_dom.php';
 require_once($lib);
 
 if(isset($_POST['subprod_afiliado']))
