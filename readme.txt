@@ -31,6 +31,23 @@ Acesse o link http://afiliados.submarino.com.br/affiliates/default.asp e siga as
 
 Por exemplo, da URL http://www.submarino.com.br/produto/10/21847010 o código são os últimos 8 digitos, no caso 21847010
 
+= Como personalizar o widget ? =
+
+Use CSS, veja um exemplo 
+
+#subprod_widget li a {
+	float: right;
+	font-size: 14px
+	top: -20px;
+	position: relative;
+}
+
+#subprod_widget li img {
+	float: left;
+}
+
+
+
 == Screenshots ==
 
 
