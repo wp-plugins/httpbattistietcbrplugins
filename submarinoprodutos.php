@@ -86,12 +86,12 @@ function subprod_core (){
 	$afiliado = get_option("subprod_afiliado");
 	$produtos = unserialize(get_option("subprod_cache"));
 	$subprod_exibirnumprodutos = get_option("subprod_exibirnumprodutos");
-	$num_produtos_cache = sizeof($produtos);
+	$num_produtos_cache = sizeof($produtos)-1;
 
 	if(is_array($produtos)){
 
 		// se for para exibir menos do que todos entao sorteia
-		if (($subprod_exibirnumprodutos > 0) && ( $num_produtos_cache > $subprod_exibirnumprodutos)){
+		if (($subprod_exibirnumprodutos > 0) && ( sizeof($produtos) > $subprod_exibirnumprodutos)){
 			$exibir_produtos = array();
 			while(sizeof($exibir_produtos) < $subprod_exibirnumprodutos){
 				$i = rand(0,$num_produtos_cache);

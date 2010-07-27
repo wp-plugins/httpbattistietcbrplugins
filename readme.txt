@@ -14,7 +14,7 @@ Plugin com widget para mostrar produtos do submarino em seu blog. Vocë escolhe 
 
 == Installation ==
 
-Após fazer a instalação do plugin vocë deve informar o seu código de afiliado submarino bem como os produtos separados por virgula ( , ) na sessão de configuração
+Após fazer a instalação do plugin vocë deve informar o seu código de afiliado submarino bem como os produtos separados por ponto e virgula ( ; ) na sessão de configuração
 
 
 == Frequently Asked Questions ==
